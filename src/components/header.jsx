@@ -32,7 +32,7 @@ const Header = () => {
     <nav className="relative flex w-full flex-nowrap items-center justify-between bg-[#0B004E] py-2 px-[20px] md:px-[150px] lg:flex-wrap lg:justify-start lg:py-4">
       <div className="flex w-full flex-wrap items-center justify-between px-3">
         <div className="ml-2">
-          <Link className="text-xl text-white dark:text-neutral-200" href="#">
+          <Link className="text-xl text-white dark:text-neutral-200" href="/">
             <Image src='/logo.png' alt='schoolbook logo' width='69' height='69'/>
           </Link>
         </div>
@@ -64,7 +64,7 @@ const Header = () => {
             <Link
               className="active text-white [&.active]:text-[#FFEE52] hover:text-[#FFEE52]"
               aria-current="page"
-              href="#"
+              href="/"
             >
               Home
             </Link>
